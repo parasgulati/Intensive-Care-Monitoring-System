@@ -1,0 +1,18 @@
+table,td,th,tr
+{
+    border:2px solid black;
+}
+body
+{
+    background-color:rgb(243, 183, 183);
+}
+td,th
+{
+    padding:10px; 
+    font-size:15px;
+}
+table
+{
+    margin-top:50px;
+    margin-left:50px;
+}

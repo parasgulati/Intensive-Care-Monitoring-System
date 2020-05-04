@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+<div id="doctor_sidebar">
+    <table>
+        <tr><td>
+                <img id="doctor_image" src="assets/img.png" height="120px" width="120px"><input type="file"><button (click)="change_image()">upload</button>
+                <div id="doctor_name">Dr. {{name}}</div>
+        </td></tr>
+        <tr><td><br></td></tr>
+        <tr><td class="a">
+                <a routerLink="about"><li class="list_doctor_sidebar_item b" routerLinkActive="active">About</li></a>
+        </td></tr>
+        <tr><td class="a">
+                <a routerLink="patient"><li class="list_doctor_sidebar_item b" routerLinkActive="active">Patients</li></a>
+        </td></tr>
+        </table>
+</div>
+        <div id="doctor_body">
+                <router-outlet></router-outlet>
+        </div>
+        
+    </body>
+    </html>

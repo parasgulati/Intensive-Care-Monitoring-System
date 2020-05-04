@@ -1,0 +1,25 @@
+<html>
+    <head>
+        </head>
+        <body>
+            <div id="doctor_about_body">
+               <div id="doctor_about_body_content">
+                    <label>Name:</label> Dr. {{name}}<br>
+                    <label>E-Mail:</label> {{email}}<br>
+                    <label>Mob. number:</label> {{mobnumber}}<br>
+                    <label>Qualifications:</label> {{qualification}}<br>
+                    <label>Specialization:</label> {{specialization}}<br>
+                    <button (click)="editDoctorDetails()">Edit</button>
+                    
+                    <div id="doctor_details_edit_form"><br>
+                    
+                        <input id="doctor_n" type="text" placeholder="Name"><br>
+                            <input id="doctor_mobnumber" type="text" placeholder="Mob. number"><br>
+                            <input id="doctor_qualification" type="text" placeholder="Qualifications"><br>
+                            <input id="doctor_specialization" type="text" placeholder="Specialization"><br>
+                            <button (click)="saveDoctorDetails()">Save</button>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>

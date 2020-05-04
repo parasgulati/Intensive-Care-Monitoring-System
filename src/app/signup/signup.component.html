@@ -1,0 +1,17 @@
+<div class="sidenav">
+<div class="form-group new_user">
+    <label>Create Account as Doctor / Nurse / Patient</label><br><br>    
+  <input type="text" placeholder="   Name" class="form-control name" [(ngModel)]="name">
+      <br>
+        <input [(ngModel)]="mail" type="text" placeholder="   E-Mail" class="form-control email">
+    <br>
+        <input type="password" [(ngModel)]="pass" placeholder="   Password" class="form-control password">
+    <br>
+        <input type="text" class="form-control category" placeholder="   Category(Doctor[D] /Patient[P] /Nurse[N])" [(ngModel)]="cat">
+        <br>
+        <input type="text" class="form-control mobnumber" placeholder="   Mob. number" [(ngModel)]="mob">
+        <br>
+       <button class="btn btn-success submit" (click)="create_login()">Create</button>
+       <div id="message"></div>
+    </div>
+</div>

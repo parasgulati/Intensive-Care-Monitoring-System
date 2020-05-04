@@ -1,0 +1,12 @@
+<div class="sidenav">    
+<div class="login">
+<label>Login for Doctors, Nurses, Patients</label><br><br>
+      <input type="text" class="email form-control" size="40px" placeholder="   E-Mail" [(ngModel)]="secure_email">
+      <br>
+      <input type="password" class="password form-control" size="40px" placeholder="   Password" [(ngModel)]="secure_password">
+      <div id="err_msg"></div>
+      <br>
+      <button class="btn btn-success submit" (click)="verify_login()">Submit</button>
+  </div>
+</div>
+

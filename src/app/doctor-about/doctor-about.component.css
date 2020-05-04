@@ -1,0 +1,14 @@
+#doctor_about_body
+{
+    background-color:rgb(243, 183, 183);
+}
+#doctor_about_body_content
+{
+    font-size:20px;
+    padding-top:10%;
+    padding-left:10%;
+}
+#doctor_details_edit_form
+{
+    display:none;
+}

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        </head>
+        <body>
+            <div id="nurse_about_body">
+               <div id="nurse_about_body_content">
+                    <label>Name:</label> {{name}}<br>
+                    <label>E-Mail:</label> {{email}}<br>
+                    <label>Mob. number:</label> {{mobnumber}}<br>
+                    <label>Qualifications:</label> {{qualification}}<br>
+                    <button (click)="editNurseDetails()">Edit</button>
+                    <br>
+                    <div id="nurse_details_edit_form"><br>
+                        <input id="nurse_n" type="text" placeholder="Name"><br>
+                        <input id="nurse_mobnumber" type="text" placeholder="Mob. number"><br>
+                        <input id="nurse_qualification" type="text" placeholder="Qualifications"><br>
+                        <button (click)="saveNurseDetails()">Save</button>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
